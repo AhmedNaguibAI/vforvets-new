@@ -1,6 +1,8 @@
 const dev = {
-	baseURL: "http://localhost:3080/api/",
-	landingPageUrl: "http://localhost:3080",
+	baseURL: "https://v-v.onrender.com",
+	// baseURL: "http://localhost:3080/api/",
+	// landingPageUrl: "http://localhost:3080",
+	landingPageUrl: "https://v-v.onrender.com",
 	stripe: {
 		free: "price_1JcQD6HIZYvvnKladKayEvOZ",
 		entry: "price_1JL68HHIZYvvnKlaBJWS5uDe",
