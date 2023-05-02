@@ -1,6 +1,8 @@
 const dev = {
+	// baseURL: "https://vforvets-new.onrender.com/api/",
 	baseURL: "http://localhost:3080/api/",
 	landingPageUrl: "http://localhost:3080",
+	// landingPageUrl: "https://vforvets-new.onrender.com/",
 	stripe: {
 		free: "price_1JcQD6HIZYvvnKladKayEvOZ",
 		entry: "price_1JL68HHIZYvvnKlaBJWS5uDe",
