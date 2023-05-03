@@ -83,7 +83,7 @@ class SidebarCompontent extends Component {
 							 <HeaderExpand>
 										<Body className="px-4 py-4 md:px-28 md:py-8 lg:py-12 flex items-center flex-1">
 											<div className="mr-4">
-											<NavLink to="/"><Logo /></NavLink>
+											{/* <NavLink to="/"><Logo /></NavLink> */}
 											</div>
 												<div>
 													<div className="text-4xl relative font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-600 inline-block">V FOR VETS<span className="font-normal "> Company</span> 

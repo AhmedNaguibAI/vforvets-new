@@ -97,7 +97,7 @@ class Login extends Component {
 			<div className="container mx-auto lg:px-4 py-4 min-h-screen flex flex-col md:items-center md:justify-center">
 
 				<div className="text-center mb-6">
-					<Logo />
+					{/* <Logo /> */}
 					<div className="text-3xl md:text-5xl relative font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-600 mb-4">V FOR VETS<span className="font-normal "> Company</span>
 						<div className="absolute top-0 ml-3 left-full bg-gradient-to-r from-gray-500 to-gray-500 text-white text-sm px-2 py-0.5 hidden md:inline-block rounded-md font-normal ">V</div>
 					</div>
@@ -186,7 +186,7 @@ class Login extends Component {
 						signUp Google
 						</div>
 						 */}
-						<a href={`https://www.openaitemplate.ai/contact`} className="mt-4 text-gray-400 text-sm">Forgot your password?</a>
+						<a href={`https://www.vforvets.net/`} className="mt-4 text-gray-400 text-sm">Forgot your password?</a>
 					</div>
                     </div>
                   </form>
