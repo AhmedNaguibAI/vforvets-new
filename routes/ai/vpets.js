@@ -13,7 +13,7 @@ const configuration = new Configuration({
   organization: "org-vjiNNSG5ipmOPzqwMGKdUnjV",
   // organization: "org-vjiNNSG5ipmOPzqwMGKdUnjV",
 
-  apiKey:"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",
+  apiKey:process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
