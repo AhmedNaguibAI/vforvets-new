@@ -9,12 +9,12 @@ import vpets from './vpets'
 
 const TOOLS = [
 
-	// codeInterpret,
-	// intro,
-	// jobad,
-	// summarize,
-	// helloworld,
-	// example,
+	codeInterpret,
+	intro,
+	jobad,
+	summarize,
+	helloworld,
+	example,
 	go,
 	vpets,
 	
