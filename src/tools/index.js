@@ -11,6 +11,10 @@ import vfeline from './vfeline'
 import vpoultry from './vpoultry'
 import vequine from './vequine'
 import vruminant from './vruminant'
+import vcase from './vcase'
+import vtreatment from './vtreatment'
+import vdiagnosis from './vdiagnosis'
+import vsolve from './vsolve'
 
 
 const TOOLS = [
@@ -28,6 +32,10 @@ const TOOLS = [
 	vequine,
 	vpoultry,
 	vruminant,
+	vcase,
+	vtreatment,
+	vdiagnosis,
+	vsolve,
 	
 
 ]

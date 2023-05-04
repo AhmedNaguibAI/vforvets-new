@@ -6,13 +6,13 @@ const obj = {
 
 	title: "V Pets",
 	desc: "Designed to assist veterinary doctors in diagnosing and investigating animal health issues.",
-	category: "Personal",
+	category: "Regular",
 	Icon: ViewListIcon,
 	permissions: ['user'],
 	fromColor: "green-500",
 	toColor: "blue-500",
-	to: "/ai/personal/vpets",
-	api: "/ai/personal/vpets",
+	to: "/ai/regular/vpets",
+	api: "/ai/regular/vpets",
 	output: {
 		title: "V",
 		desc: "The following key points detected",
@@ -64,7 +64,7 @@ export default obj
 
 // 	title: "GO Points",
 // 	desc: "Analyze your text or documents and convey the important concepts in bullet form.",
-// 	category: "Personal",
+// 	category: "Regular",
 // 	Icon: ViewListIcon,
 // 	// tags: [],
 // 	permissions: ['user'],
@@ -72,8 +72,8 @@ export default obj
 // 	fromColor: "green-500",
 // 	toColor: "blue-500",
 
-// 	to: "/ai/personal/go",
-// 	api: "/ai/personal/go",
+// 	to: "/ai/regular/go",
+// 	api: "/ai/regular/go",
 
 // 	output: {
 // 		title: "GO Points",

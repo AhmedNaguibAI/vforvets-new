@@ -110,12 +110,12 @@ class Login extends Component {
 						  </div>
 						 Login
 				  </NavLink>
-				  <NavLink to="/signup"  className={`flex-1 justify-center transition py-4 px-4 pr-8 rounded-t-md flex text-${this.props.location.pathname === "/signup"  ? "gray-800" : "gray-600"} font-medium  bg-${this.props.location.pathname === "/signup" ? "white" : "gray-300"} hover:bg-${this.props.location.pathname === "/signup"  ? "white" : "gray-100"} cursor-pointer`} >
+				  {/* <NavLink to="/signup"  className={`flex-1 justify-center transition py-4 px-4 pr-8 rounded-t-md flex text-${this.props.location.pathname === "/signup"  ? "gray-800" : "gray-600"} font-medium  bg-${this.props.location.pathname === "/signup" ? "white" : "gray-300"} hover:bg-${this.props.location.pathname === "/signup"  ? "white" : "gray-100"} cursor-pointer`} >
 						  <div className={`transition mr-4  flex-shrink-0 inline-flex items-center justify-center text-sm h-6 w-6 rounded-full bg-${this.props.location.pathname === "/signup" ? "green-300" : "gray-200"} text-${this.props.location.pathname === "/signup" ? "green" : "gray"}`}>
 							  <CheckIcon className={`transition h-4 w-4 text-${this.props.location.pathname === "/signup" ? "green-600" : "gray-400"}`} aria-hidden="true" />
 						  </div>
 						 Signup
-				  </NavLink>
+				  </NavLink> */}
 			  </div>
               <div className="px-4 py-4 md:px-12 md:py-12">
 				{/* Sorru */}

@@ -21,8 +21,8 @@ class Body extends Component {
 	}
 
 
-	@computed get personal() {
-		return this.permissions.filter(tool => tool.category === 'Personal')
+	@computed get regular() {
+		return this.permissions.filter(tool => tool.category === 'Regular')
 	}
 
 	@computed get business() {
@@ -37,8 +37,8 @@ class Body extends Component {
 		return this.permissions.filter(tool => tool.category === 'Content')
 	}
 
-	@computed get programming() {
-		return this.permissions.filter(tool => tool.category === 'Programming')
+	@computed get professional() {
+		return this.permissions.filter(tool => tool.category === 'Professional')
 	}
 
 	render() {
@@ -52,23 +52,6 @@ class Body extends Component {
 
 		
 
-			{this.programming.length ? <>
-				<Title title="Programming" />
-				<Grid>
-					{this.programming.map((tool, index) => 
-						<Tool 
-							key={index}
-							group={tool.category}
-							title={tool.title} 
-							to={tool.to} 
-							Icon={tool.Icon} 
-							desc={tool.desc} 
-							fromColor={tool.fromColor} 
-							toColor={tool.toColor} 
-						/>)} 
-				</Grid>
-				<Divider />
-			</> : null}
 
 			{this.content.length ? <>
 				<Title title="Written Content" />
@@ -88,6 +71,43 @@ class Body extends Component {
 				<Divider />
 				</> : null}
 
+			{this.regular.length ? <>
+				<Title title="Regular" />
+				<Grid>
+					{this.regular.map((tool, index) => 
+						<Tool 
+							key={index}
+							group={tool.category}
+							title={tool.title} 
+							to={tool.to} 
+							Icon={tool.Icon} 
+							desc={tool.desc} 
+							fromColor={tool.fromColor} 
+							toColor={tool.toColor} 
+						/>)} 
+				</Grid>
+				<Divider />
+			</> : null}
+
+			{this.professional.length ? <>
+				<Title title="Professional" />
+				<Grid>
+					{this.professional.map((tool, index) => 
+						<Tool 
+							key={index}
+							group={tool.category}
+							title={tool.title} 
+							to={tool.to} 
+							Icon={tool.Icon} 
+							desc={tool.desc} 
+							fromColor={tool.fromColor} 
+							toColor={tool.toColor} 
+						/>)} 
+				</Grid>
+				<Divider />
+			</> : null}
+
+
 			{this.business.length ? <>
 				<Title title="Business" />
 				<Grid>
@@ -106,23 +126,6 @@ class Body extends Component {
 				<Divider />
 			</> : null}
 
-			{this.personal.length ? <>
-				<Title title="Personal" />
-				<Grid>
-					{this.personal.map((tool, index) => 
-						<Tool 
-							key={index}
-							group={tool.category}
-							title={tool.title} 
-							to={tool.to} 
-							Icon={tool.Icon} 
-							desc={tool.desc} 
-							fromColor={tool.fromColor} 
-							toColor={tool.toColor} 
-						/>)} 
-				</Grid>
-				<Divider />
-			</> : null}
 
 			{this.social.length ? <>
 				<Title title="Online" />
