@@ -18,7 +18,7 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
-app.post("/personal/vcanine", async(req,res,next) => 
+app.post("/regular/vcanine", async(req,res,next) => 
 {
 	
 
