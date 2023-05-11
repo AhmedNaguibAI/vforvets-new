@@ -15,6 +15,8 @@ import vcase from './vcase'
 import vtreatment from './vtreatment'
 import vdiagnosis from './vdiagnosis'
 import vsolve from './vsolve'
+import vcasecanine from './vcasecanine'
+import vcasefeline from './vcasefeline'
 
 
 const TOOLS = [
@@ -36,6 +38,8 @@ const TOOLS = [
 	vtreatment,
 	vdiagnosis,
 	vsolve,
+	vcasecanine,
+	vcasefeline
 	
 
 ]

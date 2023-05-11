@@ -29,6 +29,8 @@ app.use('/', require('./vpets'));
 app.use('/', require('./vcanine'));
 app.use('/', require('./vpoultry'));
 app.use('/', require('./vcase'));
+app.use('/', require('./vcasecanine'));
+app.use('/', require('./vcasefeline'));
 app.use('/', require('./vdiagnosis'));
 app.use('/', require('./vsolve'));
 app.use('/', require('./vtreatment'));
