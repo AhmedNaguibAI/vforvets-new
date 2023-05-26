@@ -17,6 +17,9 @@ import vdiagnosis from './vdiagnosis'
 import vsolve from './vsolve'
 import vcasecanine from './vcasecanine'
 import vcasefeline from './vcasefeline'
+import vwild from './vwild'
+import vfoodsafety from './vfoodsafety'
+
 
 
 const TOOLS = [
@@ -34,6 +37,8 @@ const TOOLS = [
 	vequine,
 	vpoultry,
 	vruminant,
+	vwild,
+	vfoodsafety,
 	vcase,
 	vtreatment,
 	vdiagnosis,

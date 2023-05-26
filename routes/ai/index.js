@@ -27,6 +27,8 @@ app.use('/', require('./summarize'));
 app.use('/', require('./go'));
 app.use('/', require('./vpets'));
 app.use('/', require('./vcanine'));
+app.use('/', require('./vwild'));
+app.use('/', require('./vfoodsafety'));
 app.use('/', require('./vpoultry'));
 app.use('/', require('./vcase'));
 app.use('/', require('./vcasecanine'));
