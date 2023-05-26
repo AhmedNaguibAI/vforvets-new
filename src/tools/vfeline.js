@@ -22,7 +22,7 @@ const obj = {
 	
 	prompts: [{
 		title:"Ask V",
-		desc: "V is helping veterinary professionals to provide better care to their patients.",
+		desc: "Dear Veterinarians, please remember to follow the written topic guidelines for achieving the best results.",
 		prompts: [{ 
 				title: "Content", 
 				attr: "content",  
@@ -34,14 +34,24 @@ const obj = {
 				min: 3,
 				required: true,
 				error: "",
-				example: "The Sun is over 4.5 billion years old and has a temperature of around 10,000 degrees Fahrenheit. The Sun's light reaches the Earth in eight minutes. Coronal mass ejections are gases on the Sun's surface that erupt, shooting far out into space.",
+				example: "Ear mites ?",
 			},
 		],
 		example: {
-			outputs: [
-				"The sun is very old, over 4.5 billion years",
-				"At 10,000 degrees, the sun is also very hot",
-				"Gasses called coronal mass ejections erupt from the sun",
+			output: [
+				"Ear mites (Otodectes cynotis) in cats can cause a variety of symptoms including:\n\n",
+
+					"1. Itching: Cats with ear mites may shake their heads frequently or scratch at their ears due to intense itching.\n\n",
+
+					"2. Odor: A foul-smelling discharge may be present in the affected ear, caused by a buildup of wax and fluids.\n\n",
+
+					"3. Inflammation: Inflammation of the ear canal and surrounding tissue may occur, leading to redness, swelling, and discomfort.\n\n",
+
+					"4. Hair loss: In some cases, hair loss or scabs may develop in the area around the ear as the result of scratching and grooming.\n\n",
+
+					"5. Ear canal occlusion: Severe infestations of ear mites may lead to the formation of a thick, dark brown crust in the ear canal that can cause partial or complete occlusion.\n\n",
+
+					"Diagnosis of ear mites can be made by examining a sample of ear discharge under a microscope or by visualizing the mites themselves with an otoscope. Treatment usually involves ear cleaning to remove debris, followed by the application of a topical parasiticide to eliminate the mites. Your veterinarian may also prescribe anti-inflammatory medications or antibiotics to alleviate symptoms and prevent secondary infections.",
 			],
 			color: "blue",
 		}

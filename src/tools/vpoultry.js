@@ -22,7 +22,7 @@ const obj = {
 	
 	prompts: [{
 		title:"Ask V",
-		desc: "V is helping veterinary professionals to provide better care to their patients.",
+		desc: "Dear Veterinarians, please remember to follow the written topic guidelines for achieving the best results.",
 		prompts: [{ 
 				title: "Content", 
 				attr: "content",  
@@ -34,14 +34,26 @@ const obj = {
 				min: 3,
 				required: true,
 				error: "",
-				example: "The Sun is over 4.5 billion years old and has a temperature of around 10,000 degrees Fahrenheit. The Sun's light reaches the Earth in eight minutes. Coronal mass ejections are gases on the Sun's surface that erupt, shooting far out into space.",
+				example: "Bloody diarrhea",
 			},
 		],
 		example: {
-			outputs: [
-				"The sun is very old, over 4.5 billion years",
-				"At 10,000 degrees, the sun is also very hot",
-				"Gasses called coronal mass ejections erupt from the sun",
+			output: [
+				"Bloody diarrhea in poultry may suggest a number of different diseases or health conditions, including:\n\n",
+
+					"1. Coccidiosis - a parasitic infection caused by Eimeria species that can cause severe bloody diarrhea in poultry.\n\n",
+
+					"2. Salmonella infection - a bacterial infection that can cause bloody diarrhea, fever, and other symptoms in birds.\n\n",
+
+					"3. Necrotic enteritis - a bacterial infection of the intestines that can cause diarrhea, bloody feces, and other digestive symptoms.\n\n",
+
+					"4. Avian influenza - a viral infection that can cause bloody diarrhea in poultry, among other symptoms.\n\n",
+
+					"5. Clostridium perfringens infection - a bacterial infection that can cause bloody diarrhea and other digestive problems in birds.\n\n",
+
+					"6. Mycotoxicosis - a condition caused by exposure to toxins produced by certain fungi that can cause bloody diarrhea in poultry.\n\n",
+
+					"It is important to properly diagnose the underlying cause of bloody diarrhea in poultry in order to provide appropriate treatment and prevent the spread of disease. A veterinarian should be contacted immediately if bloody diarrhea is observed in poultry.\n\n",
 			],
 			color: "blue",
 		}

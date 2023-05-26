@@ -22,7 +22,7 @@ const obj = {
 	
 	prompts: [{
 		title:"Ask V",
-		desc: "V is helping veterinary professionals to provide better care to their patients.",
+		desc: "Dear Veterinarians, please remember to follow the written topic guidelines for achieving the best results.",
 		prompts: [{ 
 				title: "Content", 
 				attr: "content",  
@@ -34,14 +34,29 @@ const obj = {
 				min: 3,
 				required: true,
 				error: "",
-				example: "The Sun is over 4.5 billion years old and has a temperature of around 10,000 degrees Fahrenheit. The Sun's light reaches the Earth in eight minutes. Coronal mass ejections are gases on the Sun's surface that erupt, shooting far out into space.",
+				example: "CDV ?"
 			},
 		],
 		example: {
-			outputs: [
-				"The sun is very old, over 4.5 billion years",
-				"At 10,000 degrees, the sun is also very hot",
-				"Gasses called coronal mass ejections erupt from the sun",
+			output: [
+				"Canine Distemper Virus (CDV) is a highly contagious and serious viral disease that affects dogs. Following are the symptoms of CDV\n\n",
+
+					"1. Fever - A high fever above 103F is a very common early sign of CDV.\n\n",
+
+					"2. Nasal and Eye Discharge - The dog will have thick discharge from the nose, eyes, and mouth. The discharge may appear cloudy and thick at first, but then can develop into a more watery discharge later on.\n\n",
+
+					"3. Coughing and Sneezing - Dogs with CDV may show signs of coughing and sneezing.\n\n",
+
+					"4. Loss of Appetite - Dogs may lose their interest in eating.\n\n",
+
+					"5. Vomiting and Diarrhea - Dogs may suffer from vomiting and diarrhea, which can lead to dehydration. \n\n",
+
+					"6. Neurological Symptoms - As the virus progresses, it can lead to neurological symptoms like seizures, paralysis of the limbs, and muscle twitching.\n\n",
+					"7. Pneumonia- Secondary bacterial infections and pneumonia are common in dogs with CDV.\n\n",
+
+					
+					"CDV is a serious condition, and it's essential to seek veterinary care immediately if you suspect your dog may have CDV. Proper vaccination and isolation practices are the keys to preventing the spread of CDV.",
+				
 			],
 			color: "blue",
 		}

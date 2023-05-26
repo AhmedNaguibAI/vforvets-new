@@ -34,14 +34,21 @@ const obj = {
 				min: 3,
 				required: true,
 				error: "",
-				example: "The Sun is over 4.5 billion years old and has a temperature of around 10,000 degrees Fahrenheit. The Sun's light reaches the Earth in eight minutes. Coronal mass ejections are gases on the Sun's surface that erupt, shooting far out into space.",
+				example: "Hypothyroidism",
 			},
 		],
 		example: {
-			outputs: [
-				"The sun is very old, over 4.5 billion years",
-				"At 10,000 degrees, the sun is also very hot",
-				"Gasses called coronal mass ejections erupt from the sun",
+			output: [
+				"Hypothyroidism is a common hormonal disorder in pets that affects the endocrine system and the thyroid gland. Here are some detailed points on this condition:\n\n",
+
+					"- Hypothyroidism is caused by an underactive thyroid gland that does not produce enough thyroid hormones, such as thyroxine (T4) and triiodothyronine (T3).\n\n",
+					"- It can affect dogs, cats, and other pets, but it is more commonly diagnosed in dogs.\n\n",
+					"- Some of the most common clinical signs of hypothyroidism in pets include lethargy, weight gain, hair loss, dry skin, ear infections, and cold intolerance.\n\n",
+					"- Other symptoms may include muscle weakness, joint pains, anemia, constipation, and behavioral changes such as depression, anxiety, and aggression.\n\n",
+					"- Hypothyroidism can be diagnosed using a combination of clinical signs, physical examination, and laboratory tests, such as a serum thyroid hormone profile and a thyroid stimulating hormone (TSH) test.\n\n",
+					"- Treatment typically involves daily oral medication with synthetic thyroid hormones such as levothyroxine, which is available in various dosages and formulations for different pet breeds and sizes.\n\n",
+					"- With proper management and monitoring, hypothyroidism in pets can be well-controlled, and most pets can lead normal and healthy lives.\n\n",
+					"- However, if left untreated, hypothyroidism can lead to serious complications such as reduced quality of life, heart disease, and neurological problems."
 			],
 			color: "blue",
 		}
