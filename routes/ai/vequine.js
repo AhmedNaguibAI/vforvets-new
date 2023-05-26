@@ -42,7 +42,7 @@ app.post("/regular/vequine", async(req,res,next) =>
 
 	req.locals.input=prompt
 	req.locals.inputRaw=inputRaw
-	req.locals.outputs=output
+	req.locals.output=output
 
 	next()
 
