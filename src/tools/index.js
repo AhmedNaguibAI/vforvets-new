@@ -19,6 +19,10 @@ import vcasecanine from './vcasecanine'
 import vcasefeline from './vcasefeline'
 import vwild from './vwild'
 import vfoodsafety from './vfoodsafety'
+import vlabcheck from './vlabcheck'
+import vlabresult from './vlabresult'
+import vultrasound from './vultrasound'
+import vxray from './vxray'
 
 
 
@@ -44,7 +48,11 @@ const TOOLS = [
 	vdiagnosis,
 	vsolve,
 	vcasecanine,
-	vcasefeline
+	vcasefeline,
+	vlabcheck,
+	vlabresult,
+	vultrasound,
+	vxray,
 	
 
 ]
