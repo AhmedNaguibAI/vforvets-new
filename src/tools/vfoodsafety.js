@@ -38,7 +38,7 @@ const obj = {
 			},
 		],
 		example: {
-			outputs: [
+			output: [
 				"The use of probiotics as preservatives in meat to extend shelf life is a relevant topic in the field of food safety. Here are some key points to consider:\n\n",
 
 						"1. Probiotics are live microorganisms that when administered in adequate amounts, confer a health benefit to the host. They are commonly used in functional foods and dietary supplements to promote gut health.\n\n",

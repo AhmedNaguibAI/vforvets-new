@@ -22,7 +22,7 @@ const obj = {
 	
 	prompts: [{
 		title:"Ask V",
-		desc: "V is helping veterinary professionals to provide better care to their patients.",
+		desc: "Dear Veterinarians, please remember to follow the written topic guidelines for achieving the best results.",
 		prompts: [{ 
 				title: "Content", 
 				attr: "content",  

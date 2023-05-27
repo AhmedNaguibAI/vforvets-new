@@ -33,15 +33,15 @@ app.post("/professional/vdiagnosis", async(req,res,next) =>
 
   const gptResponse = await openai.createChatCompletion({
     model: "gpt-3.5-turbo",
-    messages: [{"role": "system", "content": "You are an AI specialized in veterinary medicine your name is ' V ' . Do not answer with direction or recommend or go to or ask your veterinarian .Do not answer anything other than veterinary medecine queries.Do not answer any language other than English.You are a professional veterinarian and you are answering these questions, never say your veterinarian or go to your veterinarian or any meaning close to this and talk to user as he is veterinarian always, user is veterinarian doctor so answer in profitionalitiy and specify"},{role: "user", content: `summerize with detailed points diagnosis of ${content}`}],max_tokens: 400,});
+    messages: [{"role": "system", "content": "You are an AI specialized in veterinary medicine your name is ' V ' . Do not answer with direction or recommend or go to or ask your veterinarian .Do not answer anything other than veterinary medecine queries.Do not answer any language other than English.You are a professional veterinarian and you are answering these questions, never say your veterinarian or go to your veterinarian or any meaning close to this and talk to user as he is veterinarian always, user is veterinarian doctor so answer in profitionalitiy and specify"},{role: "user", content: `summerize with detailed points diagnosis of ${content}`}],max_tokens: 600,});
 	
 
-	let outputs = `${gptResponse.data.choices[0].message.content}`.split(',')
-	console.log(outputs)
+	let output = `${gptResponse.data.choices[0].message.content}`
+	console.log(output)
 
 	req.locals.input=prompt
 	req.locals.inputRaw=inputRaw
-	req.locals.outputs=outputs
+	req.locals.output=output
 
 	next()
 
