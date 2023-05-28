@@ -27,21 +27,19 @@ const obj = {
 				title: "Content", 
 				attr: "content",  
 				value: "", 
-				placeholder: "Mention the symptoms of ....", 
+				placeholder: "Write the all types of analysis and its results here  ....", 
 				label: "",
 				type: "textarea",
 				maxLength: 1500,
 				min: 3,
 				required: true,
 				error: "",
-				example: "The Sun is over 4.5 billion years old and has a temperature of around 10,000 degrees Fahrenheit. The Sun's light reaches the Earth in eight minutes. Coronal mass ejections are gases on the Sun's surface that erupt, shooting far out into space.",
+				example: "",
 			},
 		],
 		example: {
-			outputs: [
-				"The sun is very old, over 4.5 billion years",
-				"At 10,000 degrees, the sun is also very hot",
-				"Gasses called coronal mass ejections erupt from the sun",
+			output: [
+				
 			],
 			color: "blue",
 		}

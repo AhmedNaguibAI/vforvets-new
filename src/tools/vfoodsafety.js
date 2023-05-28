@@ -27,7 +27,7 @@ const obj = {
 				title: "Content", 
 				attr: "content",  
 				value: "", 
-				placeholder: "Mention the symptoms of ....", 
+				placeholder: "Kindly write your question here ....", 
 				label: "",
 				type: "textarea",
 				maxLength: 1500,
